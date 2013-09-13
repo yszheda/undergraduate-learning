@@ -1,6 +1,6 @@
-= Valuable Questions =
+# Valuable Questions #
 
-- find max K num
+- find max K num:
 maintain a K-max heap，每次比较当前的数和heap顶的数。
 - find the Kth to Mth (0<K<=M<=N) largest num
 - Page Rank, find K pages with max rank
@@ -8,14 +8,12 @@ maintain a K-max heap，每次比较当前的数和heap顶的数。
 
 - find the closest/farthest pair of points
 
-- given the sum of two numbers, find them in an array A[N]
+- given the sum of two numbers, find them in an array A[N]:
 对A[N]进行排序，从i=0和j=N-1两头分别开始遍历，直至A[i]+A[j]=sum为止
 O( N log N )
-
 - 给定N和集合S，求S中和最接近N的子集
 
 - find the subarray in A[N] which has the max sum
-
 - find the subarray in A[M][N] which has the max sum
 
 - find最长递增subarray
