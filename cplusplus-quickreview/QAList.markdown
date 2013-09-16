@@ -1,4 +1,29 @@
-# C++ pitfalls #
+# C++/C QA #
+
+## C ##
+### Pointer ###
+```
+// an integer
+int a;
+// a pointer to an integer
+int* a;
+// a pointer to a pointer to an integer
+int** a;
+// an array of 10 integers
+int a[10];
+// an array of 10 pointers to integers
+int* a[10];
+// a pointer to an array of 10 integers
+int (*a)[10];
+// a pointer to a function that takes an integer argument and returns an integer
+int (*a)(int);
+// an array of 10 pointers to functions that take an integer argument and return an integer
+int (*a[10])(int);
+```
+
+
+## Pointer vs Reference ##
+
 
 ## Polymorphism & Virtual Functions ##
 
