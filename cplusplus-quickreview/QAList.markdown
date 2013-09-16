@@ -1,13 +1,13 @@
-= C++ pitfalls =
+# C++ pitfalls #
 
-== Polymorphism & Virtual Functions ==
+## Polymorphism & Virtual Functions ##
 
 The virtual mechanism doesn't work with the constructor.
 If you call a virtual function inside a constructor, only the local version of the function is used.
 
 
-== Operator Overloading ==
-=== Assignment ===
+## Operator Overloading ##
+### Assignment ###
 Check self-assignment!
 ```
 class Byte
@@ -28,9 +28,10 @@ public:
 }
 ```
 
-== Increment & Decrement ==
-prefix ++/-- : unary
-postfix ++/-- : binary
+### Increment & Decrement ###
+- prefix ++/-- : unary
+
+- postfix ++/-- : binary
 ```
 class Byte
 {
@@ -63,7 +64,7 @@ public:
 }
 ```
 
-=== Operator Conversion ===
+### Operator Conversion ###
 No return type!
 ```
 class A {};
