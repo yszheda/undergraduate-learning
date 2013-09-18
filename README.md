@@ -1,4 +1,4 @@
 jobHunting
 ==========
 
-job hunting
+my technical tips for job hunting
