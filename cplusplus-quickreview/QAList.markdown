@@ -81,6 +81,19 @@ If you call a virtual function inside a destructor, only the local version of th
 
 
 ## Operator Overloading ##
+### Cannot be overloadded ###
+- . (Member Access or Dot operator)
+
+- ?: (Ternary or Conditional Operator )
+
+- :: (Scope Resolution Operator)
+
+- .* (Pointer-to-member Operator )
+
+- sizeof (Object size Operator)
+
+- typeid (Object type Operator)
+
 ### Assignment ###
 Check self-assignment!
 ```
