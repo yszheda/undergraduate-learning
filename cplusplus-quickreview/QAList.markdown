@@ -23,6 +23,9 @@ int *a(int);
 int (*a[10])(int);
 ```
 
+### Character Constant ###
+In C, the type of a character constant like 'a' is actually an int, with size of 4. In C++, the type is char, with size of 1. 
+
 ## Const ##
 - C++: a const that is outside all functions has file scope (default to *internal linkage*)
 
