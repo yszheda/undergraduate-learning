@@ -1,4 +1,6 @@
-jobHunting
+Undergraduate Learning
 ==========
 
-my technical tips for job hunting
+my technical tips
+
+See https://github.com/yszheda/wiki
